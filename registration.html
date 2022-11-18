@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="./CSS/main.css">
+    <title>Registration Page</title>
+</head>
+
+<body>
+    <main class="d-flex main col-10 col-md-8 col-lg-4 mx-auto">
+        <div class="container">
+            
+            <div class="modal-toast alert alert-danger hide-toast p-5 w-50 mt-5 mx-auto">
+
+            </div>
+            <div class="row">
+                <h1 class="text-center text-warning">Sign In</h1>
+                <form class="card shadow border-0 sign" id="sign" method="#">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mx-auto my-2 d-flex flex-column align-items-center col-12">
+                        <button type="submit" class="btn btn-warning w-100">Sign In</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </main>
+    <!-- <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+    <script src="./plugin.js"></script>
+    <script src="./auth.js"></script>
+    <!-- <script src="./script.js"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="./main.css">
+    <title>Login Page </title>
+</head>
+
+<body>
+    <main class="d-flex main mx-auto  col-10 col-md-8 col-lg-4">
+        <div class="container">
+               
+            <div class="modal-toast d-none alert alert-danger hide-toast p-5 w-50 mt-5 mx-auto">
+
+            </div>
+            <div class="row">
+                <h1 class="text-center text-primary">Log In</h1>
+                <form class="card shadow border-0" id="login">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label w-100">Email address</label>
+                        <input type="text" required class="form-control w-100" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label w-100">Password</label>
+                        <input type="password" required class="form-control w-100" id="exampleInputPassword1">
+                    </div>
+                    <div class="mx-auto my-2 d-flex flex-column align-items-center col-12">
+                        <button type="submit" class="btn btn-primary w-100">Log In</button>
+                    </div>
+                    <a href="./registration.html" class="btn btn-secondary my-4">Sign In</a>
+                </form>
+            </div>
+        </div>
+
+    </main>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./plugin.js"></script>
+    <script src="./login.js"></script>
+    <!-- <script src="./script.js"></script> -->
+</body>
+
+</html>

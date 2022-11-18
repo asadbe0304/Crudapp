@@ -1,0 +1,18 @@
+{
+  "user": [
+    {
+      "user_name": "Shavkatbek To'lanboyev",
+      "score": "90",
+      "id": 1
+    },
+    {
+      "user_name": "Asadbek Axmadqulov",
+      "score": "100",
+      "id": 2
+    },
+    {
+      "user_name": "Shavkatbek",
+      "id": 3
+    }
+  ]
+}

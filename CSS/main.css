@@ -1,0 +1,25 @@
+body {
+    overflow-x: hidden;
+}
+
+.toastify {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    z-index: 4444;
+    padding: 20px 10px;
+    background-color: beige;
+    border-radius: 5px;
+    transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform: translateX(100%);
+}
+
+.main {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide-toast{
+    display: none!important;
+}
