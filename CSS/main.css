@@ -11,7 +11,7 @@ body {
     background-color: beige;
     border-radius: 5px;
     transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
-    transform: translateX(100%);
+    transform: translateY(-300%);
 }
 
 .main {
